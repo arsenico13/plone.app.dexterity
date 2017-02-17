@@ -22,6 +22,9 @@ Bug fixes:
   As great side effect vocabularies for i.e. AjaxSelectWidget from ``plone.app.content``,
   which are using the check, are working on add forms in a context w/o "Modify portal content".
   [jensens]
+- Make sure robot autologin test fixture is not accidentally torn down
+  when the Dexterity fixture's ZODB sandbox is reverted.
+  [davisagli]
 
 
 2.4.1 (2017-03-26)
